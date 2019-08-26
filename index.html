@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            width: 50vw;
+            margin: 100px auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+
+        .output {
+            min-height: 200px;
+            background-color: rgb(148, 247, 214);
+        }
+
+        .clear {
+            margin: 30px 0;
+        }
+
+        .searchField {
+            min-height: 200px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <p class="title">To-do list (engine only)</p>
+        <div>
+            <form action="" class='form'>
+                <input type="text" class="inp">
+                <button class="btn">Add new task</button>
+            </form>
+        </div>
+
+        <div class="clear">
+            <button class='clearBtn'>Clear list</button>
+        </div>
+        <p class="tasks">Tasks (click the task to remove it):</p>
+        <div class="output">
+            <ul class='list'>
+            </ul>
+        </div>
+        <p>Search results - similar tasks:</p>
+        <div class="searchField">
+            <ul class='searchUl'>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <script src='main.js'></script>
+</body>
+
+</html>
